@@ -1,0 +1,16 @@
+table,th,td{
+border-collapse: collapse;
+background-color: pink;
+border:3px solid black;
+padding : 6px;
+}
+table{
+margin-top: 50px;
+}
+blink{
+animation: blinker 0.6s linear infinite;
+color: red;
+}
+@keyframes blinker {
+50% { opacity: 0; }
+}
